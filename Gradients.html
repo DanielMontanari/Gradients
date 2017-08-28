@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>Gradients</title>
+	<style type="text/css">
+		
+		body{
+			background-color: #eee;
+			font-family: sans-serif;
+			text-align: center;
+		}
+
+		div{
+			padding: 40px;
+			width: 400px;
+			font-size: xx-large;
+			border: 4px solid black;
+			border-top-left-radius: 25px;
+			border-top-right-radius: 25px;
+			margin-top: 100px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		p{
+			font-size: medium;
+		}
+
+		.linear{
+			background: linear-gradient(to right, #F0C27B, #4B1248);
+		}
+
+		.transparent{
+			background: linear-gradient(-45deg, rgba(0,0,0,0) red);
+		}
+
+		.multiple_stops{
+			background: linear-gradient(to right, #FFED21 1%, #FF2A06 50%, #9412FF 100%);
+		}
+
+		.radial{
+			background: radial-gradient(#5f2c82, #3498db);
+		}
+
+
+	</style>
+</head>
+<body>
+      <div class="linear">Linear Gradient</div>
+      <div class="transparent">Transparent Gradient</div>
+      <div class="multiple_stops">Multiple Stops Gradient</div>
+      <div class="radial">Radial Gradient</div>
+
+</body>
+</html>
